@@ -1,2 +1,41 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>JavaScript</title>
+
+    <style>
+        .red{
+            color: red;
+        }
+</head>
+
+<body>
+    <h1 id="id" class="class">Hello, World!</h1>
+
+    <button onclick="changeText()">Click me</button>
+
+    <script>
+        var number = 10;
+        var text = 'Hello, World!';
+        var isTrue = true;
+
+        var number = number + 5;
+        text = 'JaveScript is fun!';
+        console.log(isTrue);
+
+        var elementbyID = document.getElementByID('unique');
+        element.classList.add('new-class');
+        element.classlist.remove('old-class');
+        element.classlist.toggle('toggle-class');
+
+        function changeText() {
+            var text = document.getElementByID('id');
+            text.classlist.toggle('red');
+        }
+    </script>
+</body>
+</html>
